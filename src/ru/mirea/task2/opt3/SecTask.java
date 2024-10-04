@@ -2,8 +2,8 @@ package ru.mirea.task2.opt3;
 
 
 class Point {
-    private double x;
-    private double y;
+    private final double x;
+    private final double y;
 
 
     public Point(double x, double y) {
@@ -28,8 +28,8 @@ class Point {
 
 
 class Circle {
-    private Point center;
-    private double radius;
+    private final Point center;
+    private final double radius;
 
 
     public Circle(Point center, double radius) {
@@ -53,7 +53,7 @@ class Circle {
 }
 
 class Tester {
-    private Circle[] circles;
+    private final Circle[] circles;
     private int count;
 
 
